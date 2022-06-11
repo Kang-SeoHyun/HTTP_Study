@@ -13,12 +13,12 @@ IP는 지정한 IP주소에 패킷(packet)형태로 데이터를 전달한다.
 패킷에는 출발주소(IP address), 도착주소등이 저장되어있음.
 </pre>  
 IP프로토콜에 의해 출발지에서 목적지로 노드들을 통해서 도달됨.  
-* 패킷 전달 과정
+* 패킷 전달 과정  
 ![image](https://user-images.githubusercontent.com/77817094/173190097-81f6d0a8-b2b5-4c14-9c86-e64205e1ebd5.png)  
 요청과 응답은 다른 루트로 전달될 수 있음.  
 
 * IP 프로토콜의 한계  
-![image](https://user-images.githubusercontent.com/77817094/173190176-f7c630c7-394b-426f-8680-546dbfe6de57.png)  
+![image](https://user-images.githubusercontent.com/77817094/173190176-f7c630c7-394b-426f-8680-546dbfe6de57.png)    
     > 패킷에 넣어야되는 데이터 양이 너무 크면 끊어서 보내는데 패킷들이 다른 노드를 타면 순서대로 안오고 멋대로 올 수도 있다. 
     게임하면서 노래도 듣고 그러면 구별을 어떻게 하는지? 
 
