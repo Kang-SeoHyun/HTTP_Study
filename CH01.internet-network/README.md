@@ -97,7 +97,7 @@ TCP는 신뢰할 수 있지만 용량이 커서 넘 느림.
 ![image](https://user-images.githubusercontent.com/77817094/173211657-cd82bf80-03ab-4c30-8ceb-1556f1162d53.png)  
 
 * DNS가 하는일  
-   > DNS 서버에 도메인 명을 저장해 둘 수 있음. (Like 전화번호부)  
+   DNS 서버에 도메인 명을 저장해 둘 수 있음. (Like 전화번호부)  
 
 * DNS가 필요한 이유  
-   > IP는 기억하기도 어렵고 변경될 수 있다.  
+   IP는 기억하기도 어렵고 변경될 수 있다.  
