@@ -75,14 +75,18 @@ IP에 PORT랑 체크섬 정도가 추가된 정도.
 
 UDP 쓰는 이유?  
 <pre>
-TCP는 신뢰할 수 있지만 용량이 커서 넘 느림. 근데 이미 TCP가 점령을 해버려서 바꾸기 어려움. 그래서 UDP에 손을 대서 최적화 하는 형식. 근데 시대가 바뀌면서 UDP많이 씀. (HTTP3에서 UDP씀)
+TCP는 신뢰할 수 있지만 용량이 커서 넘 느림.  
+근데 이미 TCP가 점령을 해버려서 바꾸기 어려움.  
+그래서 UDP에 손을 대서 최적화 하는 형식.  
+근데 시대가 바뀌면서 UDP많이 씀. (HTTP3에서 UDP씀)
 </pre>
 
 ## 🍑PORT🍑  
 출발, 도착지 주소 : IP - 아파트  
 출발, 도착지 어플리케이션 구분 : port - 몇동 몇호  
+* 구분하는 방법
 ![image](https://user-images.githubusercontent.com/77817094/173211354-90dc3aaa-7137-466e-9a41-0aa4724f9dd3.png)
--> 회색 박스가 port임.  
+    -> 회색 박스가 port임.  
 
 * PORT 할당시 주의할 점 
 ![image](https://user-images.githubusercontent.com/77817094/173211403-2ec12f9e-8b62-41c3-a519-70c7ac9cff86.png)  
@@ -93,7 +97,7 @@ TCP는 신뢰할 수 있지만 용량이 커서 넘 느림. 근데 이미 TCP가
 ![image](https://user-images.githubusercontent.com/77817094/173211657-cd82bf80-03ab-4c30-8ceb-1556f1162d53.png)  
 
 * DNS가 하는일  
-    DNS 서버에 도메인 명을 저장해 둘 수 있음. (Like 전화번호부)  
+   > DNS 서버에 도메인 명을 저장해 둘 수 있음. (Like 전화번호부)  
 
 * DNS가 필요한 이유  
-    IP는 기억하기도 어렵고 변경될 수 있다.  
+   > IP는 기억하기도 어렵고 변경될 수 있다.  
