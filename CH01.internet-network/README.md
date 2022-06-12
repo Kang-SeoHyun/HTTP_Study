@@ -37,13 +37,13 @@ IP프로토콜에 의해 출발지에서 목적지로 노드들을 통해서 도
 |네트워크 인터페이스 계층|LAN 장비|  
 
 프로토콜 계층  
-![image](https://user-images.githubusercontent.com/77817094/173210414-d7df2037-04c9-46f4-8241-7fd84ca27ec8.png)
+![image](https://user-images.githubusercontent.com/77817094/173210414-d7df2037-04c9-46f4-8241-7fd84ca27ec8.png)  
 -> ethernet frame에는 mac주소같은 물리적인 주소가 포함되어 있음.
 
-* IP 패킷 정보  
-![image](https://user-images.githubusercontent.com/77817094/173210562-0a123b9d-22e0-4e40-92c5-183b796f339f.png)  
-* TCP/IP 패킷 정보  
-![image](https://user-images.githubusercontent.com/77817094/173210567-aa0e9c99-353e-4833-b1a4-a5a653c34c11.png)  
+* IP 패킷 정보   
+![image](https://user-images.githubusercontent.com/77817094/173210562-0a123b9d-22e0-4e40-92c5-183b796f339f.png)   
+* TCP/IP 패킷 정보   
+![image](https://user-images.githubusercontent.com/77817094/173210567-aa0e9c99-353e-4833-b1a4-a5a653c34c11.png)   
 > 전송 제어, 순서 등과 관련된 정보를 추가함으로서 IP의 문제들을 보완 할 수 있다.  
 
 ❓TCP란❓  
@@ -55,11 +55,11 @@ IP프로토콜에 의해 출발지에서 목적지로 노드들을 통해서 도
 3. 순서 보장
     > 1,2,3 으로 보냈는데 1,3,2로 도착하면 드라이버에서 최적화하던지 3번(잘못된 부분)부터 다 버리고 클라이언트한테 2번부터 다시보내라함.
 
-* TCP 3 way handshake
-    ![image](https://user-images.githubusercontent.com/77817094/173210742-31fe2851-722e-4a0c-bd80-991fe556bc66.png)  
+* TCP 3 way handshake  
+    ![image](https://user-images.githubusercontent.com/77817094/173210742-31fe2851-722e-4a0c-bd80-991fe556bc66.png)   
     1. 클 - 메세지보냄(syn)
     2. 서 - 알겠어(ack) 메세지보냄(syn)
-    3. 클 - 알겠어(ack)  
+    3. 클 - 알겠어(ack)   
     -> 요새는 3번 ack와 함께 데이터 전송함.  
 
 ❓UDP란❓  
@@ -84,12 +84,12 @@ TCP는 신뢰할 수 있지만 용량이 커서 넘 느림.
 ## 🍑PORT🍑  
 출발, 도착지 주소 : IP - 아파트  
 출발, 도착지 어플리케이션 구분 : port - 몇동 몇호  
-* 구분하는 방법
-![image](https://user-images.githubusercontent.com/77817094/173211354-90dc3aaa-7137-466e-9a41-0aa4724f9dd3.png)
+* 구분하는 방법  
+![image](https://user-images.githubusercontent.com/77817094/173211354-90dc3aaa-7137-466e-9a41-0aa4724f9dd3.png)  
     -> 회색 박스가 port임.  
 
-* PORT 할당시 주의할 점 
-![image](https://user-images.githubusercontent.com/77817094/173211403-2ec12f9e-8b62-41c3-a519-70c7ac9cff86.png)  
+* PORT 할당시 주의할 점  
+![image](https://user-images.githubusercontent.com/77817094/173211403-2ec12f9e-8b62-41c3-a519-70c7ac9cff86.png)    
 
 ## 🍑DNS🍑
 > DNS (Domain Name System)  
