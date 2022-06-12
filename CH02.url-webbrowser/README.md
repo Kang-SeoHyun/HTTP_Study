@@ -8,8 +8,8 @@
 * Resource: 자원, URI로 식별할 수 있는 모든 것(제한 없음)  
 * Identifier: 다른 항목과 구분하는데 필요한 정보
 
-❓URI URL URN❓  
-URI = URL(위치) + URN(이름)
+❓URI URL URN❓    
+URI = URL(위치) + URN(이름)  
 ![image](https://user-images.githubusercontent.com/77817094/173212123-0125e9ff-4ec2-44f2-88d5-fde49b1a52a5.png)   
 * URL : Uniform Resource Locator  
     * 리소스가 있는 위치를 지정  
