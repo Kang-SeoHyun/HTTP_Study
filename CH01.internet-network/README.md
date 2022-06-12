@@ -15,7 +15,7 @@ IP는 지정한 IP주소에 패킷(packet)형태로 데이터를 전달한다.
 IP프로토콜에 의해 출발지에서 목적지로 노드들을 통해서 도달됨.  
 * 패킷 전달 과정  
 ![image](https://user-images.githubusercontent.com/77817094/173190097-81f6d0a8-b2b5-4c14-9c86-e64205e1ebd5.png)  
-요청과 응답은 다른 루트로 전달될 수 있음.  
+    > 요청과 응답은 다른 루트로 전달될 수 있음.  
 
 * IP 프로토콜의 한계  
 ![image](https://user-images.githubusercontent.com/77817094/173190176-f7c630c7-394b-426f-8680-546dbfe6de57.png)    
