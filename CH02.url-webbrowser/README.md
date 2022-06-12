@@ -89,7 +89,7 @@ URI = URL(위치) + URN(이름)
 
 🧹웹 브라우저가 하는 일  
 
-7. HTTP 메세지 열면 응답 메세지가 있고 HTML 렌더링을 함  
+7. HTTP 응답 메세지 해석을 해서 HTML 렌더링을 함  
     ![image](https://user-images.githubusercontent.com/77817094/173215292-ea8ed1ea-9f2a-4c3d-a9dd-1331d720b39e.png)    
 
 8. 우리가 보는 화면    
