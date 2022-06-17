@@ -45,3 +45,24 @@
   -> 클라이언트랑 서버가 독립적으로 진화할 수 있음. </pre>
 
 ## 🤖Stateful, Stateless🤖
+
+HTTP의 중요한 특징
+* 무상태 프로토콜(stateless)
+    * 서버가 클라이언트의 상태를 보존X
+    * 장점: 서버 확장성 높음(스케일 아웃)
+    * 단점: 클라이언트가 추가 데이터 전송
+
+stateful(상태유지)  
+<img src = "https://user-images.githubusercontent.com/77817094/174275100-231d8233-9b70-4f18-80ff-39b185f802e7.png" width="40%" height="40%">
+<img src = "https://user-images.githubusercontent.com/77817094/174275132-4096852e-5955-43e4-8e66-438f33d0634e.png" width="39%" height="30%">
+<img src = "https://user-images.githubusercontent.com/77817094/174275183-d24d0f09-e150-4dae-a901-911a2bfa9f72.png" width="40%" height="40%">
+
+stateless(무상태)  
+<img src = "https://user-images.githubusercontent.com/77817094/174275215-d00dddfa-3b11-48c7-bf90-367cd6e5849f.png" width="40%" height="40%">
+<img src = "https://user-images.githubusercontent.com/77817094/174275253-cf2a2150-c95e-4b9a-89b7-2fbe76c6228f.png" width="42%" height="40%">
+
+정리
+![image](https://user-images.githubusercontent.com/77817094/174275719-5fea390b-4ffb-4913-8e23-e727c5eb4b4a.png)
+
+## 🤖비 연결성(connectionless)🤖
+## 🤖HTTP 메세지🤖
